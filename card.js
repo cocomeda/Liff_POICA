@@ -12,8 +12,8 @@ $(document).ready(function() {
 				.then(function(userData) {
 					console.log(`liff.getProfile 完了 userId: ${userData.userId}, displayName: ${userData.displayName}`);
 					userId = userData.userId;
-					$('#name').text(userData.displayName + ' 様');
-					$('#point').text('100 ポイント');
+					$('#user_name').text(userData.displayName + ' 様');
+					//$('#point').text('100 ポイント');
 				})
 				.catch(function(err) {
 					console.log(`liff.getProfile 失敗 code: ${err.code}, detail: ${err.message}`);
