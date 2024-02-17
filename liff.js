@@ -36,8 +36,6 @@ async function onLogin() {
 function sendDataToGAS(idToken) {
     // ここでidTokenを含めたデータをGASに送信する処理を実装
     
-//const gasEndpoint = "https://script.google.com/macros/s/AKfycbzVJ4-JcdVxv0wWy3t9ZNSOIVHL1tJHQk-An64tuqZeRj9C6gpzr5n9KDrF6UBuIG3b/exec";
-
 
      const gasEndpoint = "https://script.google.com/macros/s/AKfycbx_y0RhP8gIZnM1_gnnGkR65DfJXnJ_Ol7lkWv4j5RdTP9nyD0ysLc3FvPxLtV29ww/exec";
    // const gasEndpoint = "https://script.google.com/macros/s/AKfycbyJOCOorABSkk3GG1CB_ttmAV8Uxwnai9hhLW1F51vr-85kZbYq__cUtdonOZiRUsbyxA/exec";
